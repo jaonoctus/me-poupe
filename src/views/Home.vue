@@ -16,3 +16,11 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.home {
+  @apply flex;
+  @apply flex-col;
+  @apply items-center;
+}
+</style>

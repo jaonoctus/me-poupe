@@ -10,22 +10,23 @@
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  @apply text-gray-800;
+  @apply flex;
+  @apply flex-col;
+  @apply items-center;
+  @apply text-center;
 }
+
 #nav {
-  padding: 30px;
+  @apply p-8;
 }
 
 #nav a {
-  font-weight: bold;
-  color: #2c3e50;
+  @apply font-bold;
+  @apply text-gray-800;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  @apply text-green-500;
 }
 </style>

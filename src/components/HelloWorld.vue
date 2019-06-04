@@ -43,17 +43,21 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h3 {
-  margin: 40px 0 0;
+  @apply mt-10;
 }
+
 ul {
-  list-style-type: none;
-  padding: 0;
+  @apply list-none;
+  @apply p-0;
 }
+
 li {
-  display: inline-block;
-  margin: 0 10px;
+  @apply inline-block;
+  @apply my-0;
+  @apply mx-3;
 }
+
 a {
-  color: #42b983;
+  @apply text-green-500;
 }
 </style>
